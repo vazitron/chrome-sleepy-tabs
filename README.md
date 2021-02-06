@@ -9,9 +9,12 @@ It aim to provide a similar feature set.
 
 # Roadmap
 
-- allow suspending of all other tabs
-- allow suspending the current tab
-- allow suspending selected tabs
+✓ allow suspending the current tab
+✓ allow suspending all except the current tab
+✓ allow suspending selected tabs
+✓ allow suspending current window
+✓ allow suspending all except current window
+- improve UI visual
 - allow timer-based auto-suspend
 - allow persistent whitelisting from auto-suspend
 - allow "not now" whitelisting from auto-suspend
