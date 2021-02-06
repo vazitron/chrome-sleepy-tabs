@@ -15,3 +15,4 @@ It aim to provide a similar feature set.
 - allow timer-based auto-suspend
 - allow persistent whitelisting from auto-suspend
 - allow "not now" whitelisting from auto-suspend
+- keyboard shortcuts
