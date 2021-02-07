@@ -4,20 +4,28 @@
   </head>
   <body>
     <div class="suspend-buttons">
-      <button id="buttonDiscardCurrentTab">Discard CURRENT TAB</button>
-      <button id="buttonDiscardSelectedTabs">Discard SELECTED TABS</button>
+      <note>
+          Snoozed tabs MAY lose unsaved forms.
+      </note>
 
-      <button id="buttonDiscardAllTabsInCurrentWindow">
-        Discard CURRENT WINDOW
-      </button>
-      <button id="buttonDiscardAllTabsExceptInCurrentWindow">
-        Discard ALL EXCEPT CURRENT WINDOW
-      </button>
+      <button id="buttonDiscardCurrentTab">Snooze CURRENT TAB</button>
+      <button id="buttonDiscardSelectedTabs">Snooze SELECTED TABS</button>
 
-      <button id="buttonDiscardAllTabsExceptCurrentTab">
-        Discard ALL TABS EXCEPT CURRENT
-      </button>
-      <button id="buttonDiscardAllTabsInAllWindows">Discard ALL TABS</button>
+      <div class="group-caution">
+        <strong>Caution!</strong>
+
+        <button id="buttonDiscardAllTabsInCurrentWindow">
+          Snooze CURRENT WINDOW
+        </button>
+        <button id="buttonDiscardAllTabsExceptInCurrentWindow">
+          Snooze ALL EXCEPT CURRENT WINDOW
+        </button>
+
+        <button id="buttonDiscardAllTabsExceptCurrentTab">
+          Snooze ALL TABS EXCEPT CURRENT
+        </button>
+        <button id="buttonDiscardAllTabsInAllWindows">Snooze ALL TABS</button>
+      </div>
     </div>
 
     <script src="menu_code.js"></script>

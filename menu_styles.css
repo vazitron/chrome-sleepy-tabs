@@ -1,13 +1,34 @@
 html {
-    width: 300px;
+  width: 340px;
 }
 
 .suspend-buttons {
-    width: 100%;
+  width: 100%;
 }
 
 .suspend-buttons button {
-    width: 100%;
-    height: 32px;
-    margin-bottom: 8px;
+  width: 100%;
+  height: 32px;
+  margin-bottom: 8px;
+}
+
+.suspend-buttons note {
+  display: block;
+  padding: 8px 0 12px 0;
+}
+
+.suspend-buttons button:last-child {
+  margin-bottom: 0;
+}
+
+.group-caution {
+  margin-top: 16px;
+  padding: 8px;
+  border: 1px solid rgb(163, 33, 0);
+}
+
+.group-caution strong {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 12px;
 }
