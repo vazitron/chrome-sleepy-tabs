@@ -1,5 +1,5 @@
 buttonDiscardCurrentTab.addEventListener("click", async () => {
-  discardAllTabsExceptCurrentTab();
+  discardCurrentTab();
 });
 
 buttonDiscardAllTabsInAllWindows.addEventListener("click", async () => {
